@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.mainbody{
+    height: 100vh;
+    background-color: hsl(230, 17%, 14%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-page{
+    width: 80%;
+    height: 80%;
+}
+
+/* navbar styling */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2em;
+}
+.nav-left p{
+    color:hsl(228, 34%, 66%);
+}
+.nav-right{
+    color:hsl(228, 34%, 66%);
+}
+/* upper styling */
+.upper{
+    display: flex;
+    gap: 2em;
+    width: 100%;
+}
+.elephant{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 3px solid hsl(208, 92%, 53%);
+    border-radius: 0.5em;
+    padding: 2em 0;
+    height: 40%;
+    background-color: hsl(228, 28%, 20%);
+    width: 100%;
+}
+
+.sm-profile{
+    display: flex;
+    gap: 0.6em;
+}
+.sm-profile p{
+    font-size: 0.7rem;
+    color:hsl(228, 34%, 66%);
+}
+
+.sm-numbers{
+    margin: 2em 0;
+}
+
+.sm-numbers h2{
+    text-align: center;
+    font-size: 3em;
+}
+
+.sm-numbers p{
+    color:hsl(228, 34%, 66%);
+}
+
+.sm-growth{
+    display: flex;
+}
+
+.sm-growth p{
+    color: hsl(163, 72%, 41%);
+}
+.sm-drop{
+    display: flex;
+
+}
+
+.sm-drop p{
+    color: hsl(356, 69%, 56%);
+}
+
+
+
+/* lower styling */
+.lower{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    background-color: hsl(228, 28%, 20%);
+
+}
+
+
+
+
+
+
+
+.post1{
+    width: 25%;
+    display: flex;
+    gap: 2em;
+    
+    
+    
+    
+}
+
+.rate{
+    display: flex;
+    gap: 0.2em;
+}
+
+
+
+
+    
+
+
